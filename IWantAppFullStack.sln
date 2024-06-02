@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IWantAppFullStack.Server", "IWantAppFullStack.Server\IWantAppFullStack.Server.csproj", "{83266EA0-CD2F-4F6D-A825-624A907DA91F}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "iwantappfullstack.client", "iwantappfullstack.client\iwantappfullstack.client.esproj", "{79B3F214-5EA7-47BF-BF03-ACDCADDE90CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83266EA0-CD2F-4F6D-A825-624A907DA91F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83266EA0-CD2F-4F6D-A825-624A907DA91F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83266EA0-CD2F-4F6D-A825-624A907DA91F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83266EA0-CD2F-4F6D-A825-624A907DA91F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79B3F214-5EA7-47BF-BF03-ACDCADDE90CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79B3F214-5EA7-47BF-BF03-ACDCADDE90CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79B3F214-5EA7-47BF-BF03-ACDCADDE90CA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{79B3F214-5EA7-47BF-BF03-ACDCADDE90CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79B3F214-5EA7-47BF-BF03-ACDCADDE90CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79B3F214-5EA7-47BF-BF03-ACDCADDE90CA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00AF8BDA-69AF-4D7B-B61C-5268AD587443}
+	EndGlobalSection
+EndGlobal

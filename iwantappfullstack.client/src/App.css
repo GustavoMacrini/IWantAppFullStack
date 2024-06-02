@@ -1,0 +1,33 @@
+﻿/*#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background: #F2F2F2;
+}
+
+tr:nth-child(odd) {
+    background: #FFF;
+}
+
+th, td {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}*/
+.wrapper {
+    width: max(90rem);
+    margin-inline: auto;
+    padding-inline: 6rem;
+}
+
+@media(max-width: 26rem) {
+
+    .wrapper {
+        width: min(25rem);
+        margin-inline: 0;
+        padding-inline: 1rem;
+    }
+}
